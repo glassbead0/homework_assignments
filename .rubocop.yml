@@ -1,0 +1,11 @@
+inherit_from: /Users/glassbead/.rvm/gems/ruby-2.1.2/gems/rubocop-0.23.0/config/default.yml
+
+Style/LineLength:
+  Max: 100
+
+Style/FormatString:
+  EnforcedStyle: percent
+  SupportedStyles:
+    - format
+    - sprintf
+    - percent
