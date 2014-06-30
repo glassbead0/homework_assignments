@@ -17,8 +17,7 @@ seconds_in_week = seconds_in_day * days_in_week
 puts 'That means there are:'
 puts "  #{seconds_in_hour} seconds in an hour,"
 puts "  #{seconds_in_day} seconds in a day,"
-puts "  #{seconds_in_week}
-seconds in a week"
+puts "  #{seconds_in_week} seconds in a week"
 
 seconds_in_20_years = seconds_in_week * 52 * 20
 seconds_in_100_years = seconds_in_20_years * 5
