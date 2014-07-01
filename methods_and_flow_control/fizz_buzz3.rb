@@ -34,7 +34,7 @@ buzz = 6
   # if not, but it is a multiple of buzz, print Buzz
   elsif x % buzz == 0
     puts 'Buzz'
-  # if none of those are the case, just print the number. 
+  # if none of those are the case, just print the number.
   else
     puts x
   end
