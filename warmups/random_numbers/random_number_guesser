@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+
+# set the max number to set the range from 1 to nax_num
+max_number = 10
+print "guess a number between 1 and #{max_number} inclusive\n> "
+# get an input from the user and turn it into an integer
+guess = gets.chomp.to_i
+# generate a random number
+rand_num = Kernel.rand(max_number) + 1
+# counts the number of tries
+tries = 1
+
+while guess != rand_num
+  if guess > rand_num
+    print 'Too high!'
+  elsif guess < rand_num
+    print 'Too low!'
+  end
+  puts ' guess again'
+  print '> '
+  # get another guess
+  guess = gets.chomp.to_i
+  # add another try
+  tries += 1
+end
+
+# plural stores the correct string for the sentence below to make it grammatically correct.
+# plural = 'tries'
+# plural = 'try' if tries == 1
+plural = tries == 1 ? 'try' : 'tries'
+puts "You got it! \nand it took you #{tries} #{plural}."
