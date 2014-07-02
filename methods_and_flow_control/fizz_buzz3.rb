@@ -18,8 +18,11 @@ def lcm(x, y)
   x * y / gcd(x, y)
 end
 
-# change the numbers for fizz and buzz. it will print "Fizz" if the number is a multiplle the fizz number,
-# "Buzz" if the number is a multiple of the buzz number, and "FizzBuzz" if the number is a multiple of both.
+# change the numbers for fizz and buzz. it will
+# print "Fizz" if the number is a multiplle the fizz number,
+# "Buzz" if the number is a multiple of the buzz number,
+# and "FizzBuzz" if the number is a multiple of both.
+
 fizz = 9
 buzz = 6
 
