@@ -23,4 +23,6 @@ seconds_in_20_years = seconds_in_week * 52 * 20
 seconds_in_100_years = seconds_in_20_years * 5
 
 puts "That means when you turn 20, you've been alive for #{seconds_in_20_years} seconds,"
-puts "and if you make it to 100, you will have lived #{seconds_in_100_years} seconds. Make them count!"
+# \ replaces + for multi-line string concatenation
+puts 'and if you make it to 100, you will have ' +
+     "lived #{seconds_in_100_years} seconds. Make them count!"

@@ -1,4 +1,4 @@
-inherit_from: /Users/glassbead/.rvm/gems/ruby-2.1.2/gems/rubocop-0.23.0/config/default.yml
+# inherit_from: /Users/glassbead/.rvm/gems/ruby-2.1.2/gems/rubocop-0.23.0/config/default.yml
 
 Style/LineLength:
   Max: 110
@@ -9,3 +9,6 @@ Style/FormatString:
     - format
     - sprintf
     - percent
+
+Style/LineEndConcatenation:
+  Enabled: false
