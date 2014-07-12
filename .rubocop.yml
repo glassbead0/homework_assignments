@@ -12,3 +12,19 @@ Style/FormatString:
 
 Style/LineEndConcatenation:
   Enabled: false
+
+Style/CyclomaticComplexity:
+  Max: 8
+
+Style/MethodLength:
+  CountComments: false
+  Max: 15
+
+Lint/ParenthesesAsGroupedExpression:
+  Description: >-
+                  Checks for method calls with a space before the opening parenthesis.
+  Enabled: false
+
+Style/TrivialAccessors:
+  Description: 'prefer attr_* methods to trivial readers/writers'
+  Enabled: false

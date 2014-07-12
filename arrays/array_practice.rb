@@ -24,9 +24,7 @@ numbers.unshift(5)
 puts "If we add 5 at the beginning of the array, we're left with #{numbers}"
 numbers.push(6)
 puts "If we add 6 at the end of the array, we're left with #{numbers}"
-numbers.keep_if {|num| num > 8}
+numbers.keep_if { |num| num > 8 }
 puts "Only the elements #{numbers} are > 8"
-while numbers.length > 0
-  numbers.delete_at(0)
-end
+numbers.delete_at(0) while numbers.length > 0
 puts "If we remove all the elements, then the length of the array is #{numbers.length}"
