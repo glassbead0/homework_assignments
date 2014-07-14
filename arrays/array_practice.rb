@@ -9,7 +9,7 @@ print 'T-10'
 9.times do |num|
   print ", #{9 - num}"
 end
-print '... BLASTOFF!'
+print '...  BLASTOFF!'
 puts "\nThe last element is #{numbers.last}"
 puts "The first element is #{numbers.first}"
 puts "The third element is #{numbers[2]}"

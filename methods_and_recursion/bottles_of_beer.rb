@@ -1,11 +1,10 @@
 #!/usr/bin/env ruby
 
-number_of_bottles = 99
 
-while number_of_bottles > 2
+
+99.downto(3) do |number_of_bottles|
   puts "#{number_of_bottles} bottles of beer on the wall, #{number_of_bottles} bottles of beer."
-  number_of_bottles -= 1
-  puts "Take one down and pass it around, #{number_of_bottles} bottles of beer on the wall."
+  puts "Take one down and pass it around, #{number_of_bottles-1} bottles of beer on the wall."
   puts
 end
 
