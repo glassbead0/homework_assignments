@@ -7,7 +7,7 @@ class CashRegister
   end
 
   def purchase(cost)
-    @total += cost.round(2)
+    @total += cost.to_f.round(2)
   end
 
   def total
