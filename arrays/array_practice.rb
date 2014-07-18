@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
-# numbers = (1..10).to_a
-numbers = [1,2,3,4,5,6,7,8,9,10]
+numbers = (1..10).to_a
+
 numbers.each do |num|
   print num.to_s + '...'
 end
