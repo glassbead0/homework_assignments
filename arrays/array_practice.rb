@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
-numbers = (1..10).to_a
-
+# numbers = (1..10).to_a
+numbers = [1,2,3,4,5,6,7,8,9,10]
 numbers.each do |num|
   print num.to_s + '...'
 end
 puts
 print 'T-10'
 9.times do |num|
-  print ", #{9 - num}"
+  print ",#{9 - num}"
 end
 print '...  BLASTOFF!'
 puts "\nThe last element is #{numbers.last}"
@@ -15,11 +15,11 @@ puts "The first element is #{numbers.first}"
 puts "The third element is #{numbers[2]}"
 puts "The element with an index of 3 is #{numbers[3]}"
 puts "The second from last element is #{numbers[-2]}"
-puts "The first four elements are '#{numbers.slice(0, 4).join(', ')}'"
+puts "The first four elements are '#{numbers.slice(0, 4).join(',')}'"
 numbers.delete_at(6)
 numbers.delete_at(5)
 numbers.delete_at(4)
-puts "If we delete 5, 6, and 7 from the array, we're left with #{numbers}"
+puts "If we delete 5, 6 and 7 from the array, we're left with #{numbers}"
 numbers.unshift(5)
 puts "If we add 5 at the beginning of the array, we're left with #{numbers}"
 numbers.push(6)
