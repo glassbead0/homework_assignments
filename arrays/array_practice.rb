@@ -5,10 +5,8 @@ numbers.each do |num|
   print num.to_s + '...'
 end
 puts
-print 'T-10'
-9.times do |num|
-  print ",#{9 - num}"
-end
+print 'T-'
+numbers.reverse.join(', ')
 print '...  BLASTOFF!'
 puts "\nThe last element is #{numbers.last}"
 puts "The first element is #{numbers.first}"
