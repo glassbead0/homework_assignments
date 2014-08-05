@@ -14,9 +14,9 @@ puts "The third element is #{numbers[2]}"
 puts "The element with an index of 3 is #{numbers[3]}"
 puts "The second from last element is #{numbers[-2]}"
 puts "The first four elements are '#{numbers.slice(0, 4).join(', ')}'"
-numbers.delete_at(6)
-numbers.delete_at(5)
-numbers.delete_at(4)
+numbers.delete(5)
+numbers.delete(6)
+numbers.delete(7)
 puts "If we delete 5, 6 and 7 from the array, we're left with [#{numbers.join(',')}]"
 numbers.unshift(5)
 puts "If we add 5 at the beginning of the array, we're left with [#{numbers.join(',')}] "
